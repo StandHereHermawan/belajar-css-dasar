@@ -1,0 +1,5 @@
+perbedaan antara border dan outline
+A. border
+Mengambil area dari dalam box, dapat mengganggu layout.
+B. layout
+Mengambil area diluar box. Mengambil area dalam margin. tidak mengganggu layout.
