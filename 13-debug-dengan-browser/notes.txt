@@ -1,0 +1,2 @@
+inspect halaman web yang kita buat pake 
+tools browser terkait pake klik kanan di mouse dan pilih inspect.
