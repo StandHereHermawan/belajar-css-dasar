@@ -1,0 +1,4 @@
+Relative Length yang bakal sering kepake:
+1. vw
+2. vh
+https://developer.mozilla.org/en-US/docs/Web/CSS/length#relative_length_units_based_on_viewport
