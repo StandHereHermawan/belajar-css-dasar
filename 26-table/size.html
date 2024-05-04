@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, th, td {
+            border-style: solid;
+            border-width: 0.4vw;
+            margin: 0px;
+            padding: 0.5vw;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 200px;
+            height: 200px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            text-align: left;
+        }
+        
+        td:hover {
+            background-color: black;
+            color: white;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .ganjil {
+            background-color: darkkhaki;
+        }
+
+        .genap {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="ganjil">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+            <tr class="genap">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+            <tr class="ganjil">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+            <tr class="genap">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+            <tr class="ganjil">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+            <tr class="genap">
+                <td>Anonim</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
