@@ -1,0 +1,39 @@
+@layer a {
+    h1 {
+        color: pink;
+        padding: 2vw;
+        border-radius: 2vw;
+        background-color: white;
+        min-width: 16vw;
+        max-width: 16vw;
+    }
+
+    h2 {
+        color: white;
+        padding: 2vw;
+        border-radius: 2vw;
+        background-color: pink;
+        min-width: 16vw;
+        max-width: 16vw;
+    }
+}
+
+@layer b {
+    h1 {
+        color: white;
+        padding: 2vw;
+        border-radius: 2vw;
+        background-color: pink;
+        min-width: 16vw;
+        max-width: 16vw;
+    }
+
+    h2 {
+        color: pink;
+        padding: 2vw;
+        border-radius: 2vw;
+        background-color: white;
+        min-width: 16vw;
+        max-width: 16vw;
+    }
+}
